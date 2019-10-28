@@ -1,0 +1,166 @@
+.keyS {
+    margin-left: 50%;
+}
+.diffSort input{
+    position: relative;
+    padding: 10px 30px 10px;
+    font-size: 15px;
+    cursor:pointer;
+    background-color:lightsalmon;
+    border-radius: 8px;
+    float:right;
+    margin-right: 9px;
+    margin-left: 9px;
+    border-color: crimson;
+}
+.crExR{
+    z-index: 2;
+    background-image: linear-gradient(to bottom left,lightsalmon, white,pink);
+}
+.crExL{
+    z-index: 2;
+    background-image: linear-gradient(to bottom right,lightsalmon, white,pink);
+}
+.qbank{
+    background-color:transparent;
+    position: absolute;
+    text-align: center;
+    height:auto;
+    width:89%;
+    top:235px;
+    margin-top:auto;
+
+}
+.bnkbox{
+    position: relative;
+    margin:0;
+    height: auto;
+    margin-left: 1%;
+    vertical-align: center;
+    width: 100%;
+}
+.bnkbox li{
+    background-color: rgba(255,255,255, 0.45);
+    position: relative;
+    padding: 17px 10px 17px;
+    width:auto;
+    height:auto;
+    border-radius:25px;
+    margin: 0 0 15px 0;
+}
+.bnkbox input{
+    font-size: large;
+}
+.qAddE {
+    padding: 7px 12px 7px;
+    font-size: 20px;
+    cursor:pointer;
+    background-color:crimson;
+    border-radius: 8px;
+    margin-left: 10px;
+
+}
+.topicS {
+
+    margin-left: 8%;
+}
+select {
+    font-size: 15px;
+    cursor:pointer;
+    background-color:lightsalmon;
+    border-radius: 8px;
+    border-color: crimson;
+}
+.exCreate{
+    padding: 7px 12px 7px;
+    font-size: 20px;
+    cursor:pointer;
+    background-color:crimson;
+    border-radius: 8px;
+    margin-left: 40%;
+}
+.footer{
+    position: fixed;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-image: linear-gradient(to left,bisque, white,lavenderblush);
+    border-radius: 6px;
+    vertical-align: bottom;
+    top: auto;
+    bottom: 0;
+    float: bottom;
+    width:50%;
+}
+.addFootr{
+    position: fixed;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-image: linear-gradient(to right,bisque, white,lavenderblush);
+    border-radius: 6px;
+    vertical-align: bottom;
+    top: auto;
+    bottom: 0;
+    float: bottom;
+    width:50%;
+    z-index: 2;
+}
+.exq{
+    background-color:transparent;
+    position: absolute;
+    text-align: center;
+    height:auto;
+    width:95%;
+    top:235px;
+    margin-top:auto;
+}
+.exQues{
+    position:relative;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+}
+.exQues li{
+    position: relative;
+    height:auto;
+    margin: 0 0 15px 0;
+    vertical-align: middle;
+}
+.exQues label{
+    background-color: rgba(255,255,255, 0.45);
+    display: inline-block;
+    padding: 17px 10px 17px;
+    width:75%;
+    border-radius:25px;
+    text-align: center;
+}
+.exQues li textarea{
+    font-size: large;
+}
+.set{
+    display: table-cell;
+    float: right;
+    margin: 10px;
+}
+textarea {
+    resize: none;
+}
+.exQR{
+    padding: 0 8px 0;
+    cursor:pointer;
+    float: right;
+    margin-top: 4.5px;
+}
+.reset{
+    background-color: pink;
+    border-radius: 6px;
+    border-color: crimson;
+    margin-left: 10px;
+}
+.points{
+    width: 50px;
+    border-color:black;
+    border-width: thin;
+    font-size: medium;
+}

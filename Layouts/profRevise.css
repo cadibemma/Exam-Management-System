@@ -1,0 +1,136 @@
+body, html {
+    height:100%;
+    font-family: Arial;
+    color: black;
+    background-image: linear-gradient(to bottom right, mediumpurple, white,plum);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin: 0;
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 12px;
+    font-size: large;
+}
+
+td, th {
+    border: 1px solid indianred;
+    padding: auto;
+    margin:0;
+}
+tr:nth-child(odd) {
+    background-color: rgba(255,255,255, 0.45);
+}
+
+.exL{
+    z-index: 2;
+    background-image: linear-gradient(to bottom right, lightsalmon, white, palevioletred);
+    position: fixed;
+    width: 50%;
+    padding-top: 20px;
+}
+.exR{
+    z-index: 2;
+    background-image: linear-gradient(to bottom left, darkturquoise, white,cyan);
+    position: fixed;
+    width: 50%;
+    padding-top: 20px;
+}
+.goBack {
+    padding: 7px 12px 7px;
+    font-size: 13px;
+    cursor:pointer;
+    background-color:crimson;
+    color: white;
+    border-radius: 8px;
+    float: left;
+    margin-left: 8px;
+}
+.qa{
+    width:100%;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 2px;
+}
+.qc{
+    width:100%;
+    background-color: rgba(255,255,255, 0.45);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    min-height: 75px;
+}
+.qac{
+    width:80%;
+    background-color: rgba(255,255,255, 0.45);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    min-height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.ro div p {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 1.5;
+    transform: translate(0,315%) rotate(-90deg);
+    -webkit-transform: translate(0,315%) rotate(-90deg);
+    -moz-transform: translate(0,315%) rotate(-90deg) ;
+    -ms-transform: translate(0,315%) rotate(-90deg);
+    -o-transform: translate(0,315%) rotate(-90deg);
+    transform-origin: 0 0;
+}
+.ro div {
+    display: inline-block;
+    width: 1.0em;
+    min-height:110px ;
+}
+.ro div p :after {
+    content: "";
+    display: block;
+    margin: -1.0em 0 100%;
+}
+.ro{
+    width:40px;
+}
+.c{
+    height:38px;
+    padding:0;
+}
+.totFtr{
+    position: fixed;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-image: linear-gradient(to bottom right, lightsalmon, white, palevioletred);
+    border-radius: 6px;
+    vertical-align: bottom;
+    top: auto;
+    bottom: 0;
+    float: bottom;
+    width:50%;
+    text-align: center;
+}
+textarea{
+    resize:none;
+}
+.totOvrl{
+    display: inline-block;
+    padding-top: 10px;
+}
+.altScore{
+    padding: 7px 12px 7px;
+    font-size: 13px;
+    cursor:pointer;
+    background-color:salmon;
+    color: white;
+    border-color: crimson;
+    border-radius: 8px;
+    float: right;
+    margin-right: 10px;
+}
